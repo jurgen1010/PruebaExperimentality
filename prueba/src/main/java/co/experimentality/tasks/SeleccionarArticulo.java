@@ -12,7 +12,7 @@ public class SeleccionarArticulo implements Task {
         actor.attemptsTo(AgregarACesta.productoDeLaCategoria());
     }
 
-    public static SeleccionarArticulo paraAgregaACesta(){
+    public static SeleccionarArticulo agregarACesta(){
         return Tasks.instrumented(SeleccionarArticulo.class);
     }
 }

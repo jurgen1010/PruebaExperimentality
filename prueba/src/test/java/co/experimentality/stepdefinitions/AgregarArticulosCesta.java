@@ -19,7 +19,7 @@ public class AgregarArticulosCesta {
 
     @Cuando("^el agrega a la cesta de compras un articulo$")
     public void elAgregaALaCestaDeComprasUnArticulo() {
-        theActorInTheSpotlight().attemptsTo(SeleccionarArticulo.paraAgregaACesta());
+        theActorInTheSpotlight().attemptsTo(SeleccionarArticulo.agregarACesta());
     }
 
     @Entonces("^el podra visualizar el articulo selecionado dentro de la cesta$")

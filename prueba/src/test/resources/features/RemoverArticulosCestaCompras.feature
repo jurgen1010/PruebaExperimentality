@@ -8,20 +8,20 @@ Característica: Remover articulos en cesta de compras
   Escenario: Eliminar de la cesta de compras un articulo de la categoria hombre
     Dado que el usuario se encuentra en el portal clothesstore-latam dentro la categoria Hombre
     Cuando remuevo de la cesta de compras un articulo
-    Entonces no se visualizará el articulo removido dentro de la cesta
+    Entonces se visualizara una alerta confirmando la eliminacion del articulo
 
   Escenario: Eliminar de la cesta de compras un articulo de la categoria mujer
     Dado que el usuario se encuentra en el portal clothesstore-latam dentro la categoria Mujer
     Cuando remuevo de la cesta de compras un articulo
-    Entonces no se visualizará el articulo removido dentro de la cesta
+    Entonces se visualizara una alerta confirmando la eliminacion del articulo
 
   Escenario: Eliminar de la cesta de compras un articulo de la categoria junior
     Dado que el usuario se encuentra en el portal clothesstore-latam dentro la categoria Junior
     Cuando remuevo de la cesta de compras un articulo
-    Entonces no se visualizará el articulo removido dentro de la cesta
+    Entonces se visualizara una alerta confirmando la eliminacion del articulo
 
   Escenario: Eliminar de la cesta de compras un articulo de la categoria niños
     Dado que el usuario se encuentra en el portal clothesstore-latam dentro la categoria Niños
     Cuando remuevo de la cesta de compras un articulo
-    Entonces no se visualizará el articulo removido dentro de la cesta
+    Entonces se visualizara una alerta confirmando la eliminacion del articulo
 
