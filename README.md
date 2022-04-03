@@ -11,11 +11,11 @@ Luego de descargar el repositorio abrir el código como proyecto Gradle en la he
 ---
 Para la ejecución de la automatización se puede utilizar el siguiente comando para la ejecución de un runner en especial:
 
-gradlew.bat clean test --tests
+gradlew test --tests
 
 Ejemplo:
 
-gradlew.bat clean test --tests co.experimentality.runners.AgregarArticuloCestaCompras aggregate -i
+gradlew test --tests co.experimentality.runners.AgregarArticuloCestaCompras -i
 
 ### PRE-REQUISITOS ###
 Estos son los programas y/o características que se deben tener instaladas localmente, para el proceso de ejecución de pruebas automatizadas bajo el patrón screenplay. Nota: La automatización que se va a realizar en este proyecto será de escritorio debido que el desarrollo es Ompremise por medio de la herramienta DataStage
