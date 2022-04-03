@@ -10,10 +10,21 @@ repositories {
 }
 
 dependencies {
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+    testImplementation 'junit:junit:4.12'
+
+    compile 'net.serenity-bdd:serenity-core:1.9.45'
+    compile 'net.serenity-bdd:serenity-junit:1.9.45'
+    compile 'net.serenity-bdd:serenity-cucumber:1.9.45'
+    compile 'net.serenity-bdd:serenity-screenplay-webdriver:1.9.45'
+
+    compile 'org.assertj:assertj-core:1.7.0'
+    compile 'org.slf4j:slf4j-simple:1.7.30'
+
 }
 
 test {
-    useJUnitPlatform()
+    systemProperty "file.encoding", "UTF-8"
+    systemProperty "feature.file.encoding", "UTF-8"
 }
+
+gradle.startParameter.continueOnFailure = true
