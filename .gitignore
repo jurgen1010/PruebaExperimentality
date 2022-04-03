@@ -10,5 +10,18 @@ gradle-app.setting
 # Cache of project
 .gradletasknamecache
 
+# Ignore project-specific cache directory
+.classpath
+.settings
+.idea
+*.iml
+*.project
+*.class
+
+# Ignore build output directory
+build/
+bin/
+target/
+
 # # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
 # gradle/wrapper/gradle-wrapper.properties
