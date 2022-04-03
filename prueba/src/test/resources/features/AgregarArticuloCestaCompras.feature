@@ -1,6 +1,6 @@
 # language:es
 
-Característica: Adicionar articulos a cesta de comrpas
+Característica: Adicionar articulos a cesta de compras
   Yo como dueño de producto
   necesito poder agregar articulos a la cesta de compras en el portal de ventas clothesstore-latam
   para poder realizar compras que comprenden mas de un articulo
